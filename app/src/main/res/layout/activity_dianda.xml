@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hdd.loginapplication.diandaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/kfc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:text="请选择业务"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/id_dabao"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="外卖"
+            android:textSize="30sp"
+            android:background="@color/background"
+            android:layout_marginLeft="40dp" />
+        <Button
+            android:id="@+id/id_diancan"
+            android:layout_marginLeft="40dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="点餐"
+            android:background="@color/background"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/id_vip"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:text="vip卡"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/id_youhui"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="@color/background"
+            android:text="优惠券"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

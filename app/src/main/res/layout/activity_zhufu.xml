@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hdd.loginapplication.ZhufuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/kfc"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择支付方式"
+            android:textSize="30sp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_xianjin"
+        android:layout_marginTop="80dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="现金/VIP支付"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:background="@color/background"/>
+
+    <Button
+        android:id="@+id/id_scan"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="扫码支付"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:background="@color/background"/>
+
+    <TextView
+        android:id="@+id/id_Text"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+</LinearLayout>

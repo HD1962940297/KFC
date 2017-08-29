@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hdd.loginapplication.Main2Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/kfc"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择桌号"
+            android:textSize="30sp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="桌号"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:gravity="center"
+        android:background="@color/colorAccent"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginLeft="5dp"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:gravity="center"
+        android:background="@color/colorAccent"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_marginLeft="5dp"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="3" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_marginLeft="5dp"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:gravity="center"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="85dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="85dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="85dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="8" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="85dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="10" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="85dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="11" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="85dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="12" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_height="wrap_content"
+            android:layout_width="85dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="13" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="85dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="14" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="85dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="15" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="85dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="16" />
+    </LinearLayout>
+</LinearLayout>
